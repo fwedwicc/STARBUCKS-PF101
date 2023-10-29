@@ -313,6 +313,7 @@ Partial Class MainForm
         'Guna2Button5
         '
         Me.Guna2Button5.BorderRadius = 12
+        Me.Guna2Button5.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray
         Me.Guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
         Me.Guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
@@ -376,6 +377,7 @@ Partial Class MainForm
         'Guna2Button1
         '
         Me.Guna2Button1.BorderRadius = 12
+        Me.Guna2Button1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
         Me.Guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
         Me.Guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
@@ -394,6 +396,7 @@ Partial Class MainForm
         Me.Guna2Button6.BorderColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.Guna2Button6.BorderRadius = 12
         Me.Guna2Button6.BorderThickness = 2
+        Me.Guna2Button6.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray
         Me.Guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
         Me.Guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
@@ -401,7 +404,7 @@ Partial Class MainForm
         Me.Guna2Button6.FillColor = System.Drawing.Color.Empty
         Me.Guna2Button6.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Guna2Button6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(50, Byte), Integer))
-        Me.Guna2Button6.Location = New System.Drawing.Point(1445, 862)
+        Me.Guna2Button6.Location = New System.Drawing.Point(1458, 862)
         Me.Guna2Button6.Name = "Guna2Button6"
         Me.Guna2Button6.Size = New System.Drawing.Size(180, 50)
         Me.Guna2Button6.TabIndex = 7

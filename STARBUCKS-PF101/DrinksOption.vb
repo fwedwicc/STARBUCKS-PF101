@@ -30,6 +30,16 @@ Public Class DrinksOption
         hotTeasForm.BringToFront()
         hotTeasForm.Show()
     End Sub
+
+    Private Sub Guna2Button3_Click(sender As Object, e As EventArgs) Handles Guna2Button3.Click
+        Dim hotDrinksForm As New HotDrinksOptions()
+        hotDrinksForm.TopLevel = False
+        hotDrinksForm.FormBorderStyle = FormBorderStyle.None
+        hotDrinksForm.Dock = DockStyle.Fill
+        MainForm.SideOptions.Controls.Add(hotDrinksForm)
+        hotDrinksForm.BringToFront()
+        hotDrinksForm.Show()
+    End Sub
 End Class
 
 

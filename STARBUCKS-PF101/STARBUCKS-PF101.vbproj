@@ -103,6 +103,12 @@
     <Compile Include="HotCoffeesOptions.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="HotDrinksOptions.Designer.vb">
+      <DependentUpon>HotDrinksOptions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HotDrinksOptions.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="HotTeasOptions.Designer.vb">
       <DependentUpon>HotTeasOptions.vb</DependentUpon>
     </Compile>
@@ -156,6 +162,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="HotCoffeesOptions.resx">
       <DependentUpon>HotCoffeesOptions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HotDrinksOptions.resx">
+      <DependentUpon>HotDrinksOptions.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HotTeasOptions.resx">
       <DependentUpon>HotTeasOptions.vb</DependentUpon>
