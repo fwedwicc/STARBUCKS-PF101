@@ -79,6 +79,18 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ColdCoffeesOptions.Designer.vb">
+      <DependentUpon>ColdCoffeesOptions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ColdCoffeesOptions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ColdDrinksOptions.Designer.vb">
+      <DependentUpon>ColdDrinksOptions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ColdDrinksOptions.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="DrinksOption.Designer.vb">
       <DependentUpon>DrinksOption.vb</DependentUpon>
     </Compile>
@@ -89,6 +101,12 @@
       <DependentUpon>FoodsOption.vb</DependentUpon>
     </Compile>
     <Compile Include="FoodsOption.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrappuccinoOptions.Designer.vb">
+      <DependentUpon>FrappuccinoOptions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrappuccinoOptions.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="HotBreakfastOptions.Designer.vb">
@@ -113,6 +131,12 @@
       <DependentUpon>HotTeasOptions.vb</DependentUpon>
     </Compile>
     <Compile Include="HotTeasOptions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IcedTeasOptions.Designer.vb">
+      <DependentUpon>IcedTeasOptions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IcedTeasOptions.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MainForm.vb">
@@ -151,11 +175,20 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="ColdCoffeesOptions.resx">
+      <DependentUpon>ColdCoffeesOptions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ColdDrinksOptions.resx">
+      <DependentUpon>ColdDrinksOptions.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DrinksOption.resx">
       <DependentUpon>DrinksOption.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FoodsOption.resx">
       <DependentUpon>FoodsOption.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrappuccinoOptions.resx">
+      <DependentUpon>FrappuccinoOptions.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HotBreakfastOptions.resx">
       <DependentUpon>HotBreakfastOptions.vb</DependentUpon>
@@ -168,6 +201,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="HotTeasOptions.resx">
       <DependentUpon>HotTeasOptions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IcedTeasOptions.resx">
+      <DependentUpon>IcedTeasOptions.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.vb</DependentUpon>

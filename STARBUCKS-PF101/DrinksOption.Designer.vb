@@ -131,7 +131,7 @@ Partial Class DrinksOption
         Me.Guna2Button3.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.Guna2Button3.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(82, Byte), Integer), CType(CType(130, Byte), Integer), CType(CType(111, Byte), Integer))
         Me.Guna2Button3.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Guna2Button3.CustomImages.CheckedImage = CType(resources.GetObject("resource.CheckedImage1"), System.Drawing.Image)
+        Me.Guna2Button3.CustomImages.CheckedImage = CType(resources.GetObject("resource.CheckedImage3"), System.Drawing.Image)
         Me.Guna2Button3.CustomImages.ImageOffset = New System.Drawing.Point(-10, 47)
         Me.Guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray
         Me.Guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
@@ -189,7 +189,7 @@ Partial Class DrinksOption
         Me.Guna2Button5.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.Guna2Button5.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(82, Byte), Integer), CType(CType(130, Byte), Integer), CType(CType(111, Byte), Integer))
         Me.Guna2Button5.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Guna2Button5.CustomImages.CheckedImage = CType(resources.GetObject("resource.CheckedImage5"), System.Drawing.Image)
+        Me.Guna2Button5.CustomImages.CheckedImage = CType(resources.GetObject("resource.CheckedImage1"), System.Drawing.Image)
         Me.Guna2Button5.CustomImages.ImageOffset = New System.Drawing.Point(-10, 47)
         Me.Guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray
         Me.Guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
@@ -218,7 +218,7 @@ Partial Class DrinksOption
         Me.Guna2Button6.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.Guna2Button6.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(82, Byte), Integer), CType(CType(130, Byte), Integer), CType(CType(111, Byte), Integer))
         Me.Guna2Button6.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Guna2Button6.CustomImages.CheckedImage = CType(resources.GetObject("resource.CheckedImage6"), System.Drawing.Image)
+        Me.Guna2Button6.CustomImages.CheckedImage = CType(resources.GetObject("resource.CheckedImage1"), System.Drawing.Image)
         Me.Guna2Button6.CustomImages.ImageOffset = New System.Drawing.Point(-10, 47)
         Me.Guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray
         Me.Guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
@@ -247,7 +247,7 @@ Partial Class DrinksOption
         Me.Guna2Button7.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(50, Byte), Integer))
         Me.Guna2Button7.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(82, Byte), Integer), CType(CType(130, Byte), Integer), CType(CType(111, Byte), Integer))
         Me.Guna2Button7.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Guna2Button7.CustomImages.CheckedImage = CType(resources.GetObject("resource.CheckedImage7"), System.Drawing.Image)
+        Me.Guna2Button7.CustomImages.CheckedImage = CType(resources.GetObject("resource.CheckedImage1"), System.Drawing.Image)
         Me.Guna2Button7.CustomImages.ImageOffset = New System.Drawing.Point(-10, 47)
         Me.Guna2Button7.DisabledState.BorderColor = System.Drawing.Color.DarkGray
         Me.Guna2Button7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
