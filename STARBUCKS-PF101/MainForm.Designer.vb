@@ -266,12 +266,12 @@ Partial Class MainForm
         'Guna2ShadowPanel6
         '
         Me.Guna2ShadowPanel6.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2ShadowPanel6.FillColor = System.Drawing.Color.White
-        Me.Guna2ShadowPanel6.Location = New System.Drawing.Point(307, 170)
+        Me.Guna2ShadowPanel6.FillColor = System.Drawing.Color.Transparent
+        Me.Guna2ShadowPanel6.Location = New System.Drawing.Point(308, 170)
         Me.Guna2ShadowPanel6.Name = "Guna2ShadowPanel6"
         Me.Guna2ShadowPanel6.ShadowColor = System.Drawing.Color.Black
         Me.Guna2ShadowPanel6.ShadowShift = 0
-        Me.Guna2ShadowPanel6.Size = New System.Drawing.Size(988, 500)
+        Me.Guna2ShadowPanel6.Size = New System.Drawing.Size(987, 500)
         Me.Guna2ShadowPanel6.TabIndex = 8
         '
         'Guna2ShadowPanel5
