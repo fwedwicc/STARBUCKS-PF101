@@ -25,6 +25,26 @@ Partial Class MainForm
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MainForm))
         Me.Guna2Elipse1 = New Guna.UI2.WinForms.Guna2Elipse(Me.components)
+        Me.Guna2ShadowPanel2 = New Guna.UI2.WinForms.Guna2ShadowPanel()
+        Me.OptionPanel = New System.Windows.Forms.Panel()
+        Me.Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
+        Me.Guna2Button6 = New Guna.UI2.WinForms.Guna2Button()
+        Me.Guna2ShadowPanel3 = New Guna.UI2.WinForms.Guna2ShadowPanel()
+        Me.Guna2Button7 = New Guna.UI2.WinForms.Guna2Button()
+        Me.ContentPanel = New Guna.UI2.WinForms.Guna2ShadowPanel()
+        Me.Guna2ShadowPanel5 = New Guna.UI2.WinForms.Guna2ShadowPanel()
+        Me.SideOptions = New Guna.UI2.WinForms.Guna2Panel()
+        Me.Guna2ShadowPanel4 = New Guna.UI2.WinForms.Guna2ShadowPanel()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Guna2Button5 = New Guna.UI2.WinForms.Guna2Button()
+        Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
+        Me.Guna2PictureBox3 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2ShadowPanel1 = New Guna.UI2.WinForms.Guna2ShadowPanel()
         Me.Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2Button4 = New Guna.UI2.WinForms.Guna2Button()
@@ -32,29 +52,6 @@ Partial Class MainForm
         Me.Guna2Button2 = New Guna.UI2.WinForms.Guna2Button()
         Me.Guna2Button = New Guna.UI2.WinForms.Guna2Button()
         Me.ImageSlide = New Guna.UI2.WinForms.Guna2PictureBox()
-        Me.Guna2ShadowPanel2 = New Guna.UI2.WinForms.Guna2ShadowPanel()
-        Me.OptionPanel = New System.Windows.Forms.Panel()
-        Me.Guna2ShadowPanel3 = New Guna.UI2.WinForms.Guna2ShadowPanel()
-        Me.ContentPanel = New Guna.UI2.WinForms.Guna2ShadowPanel()
-        Me.Guna2ShadowPanel5 = New Guna.UI2.WinForms.Guna2ShadowPanel()
-        Me.SideOptions = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Guna2ShadowPanel4 = New Guna.UI2.WinForms.Guna2ShadowPanel()
-        Me.Guna2Button5 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Guna2PictureBox2 = New Guna.UI2.WinForms.Guna2PictureBox()
-        Me.Guna2PictureBox3 = New Guna.UI2.WinForms.Guna2PictureBox()
-        Me.Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2Button6 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Guna2Button7 = New Guna.UI2.WinForms.Guna2Button()
-        Me.Guna2ShadowPanel1.SuspendLayout()
-        CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.ImageSlide, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Guna2ShadowPanel2.SuspendLayout()
         Me.Guna2ShadowPanel3.SuspendLayout()
         Me.Guna2ShadowPanel5.SuspendLayout()
@@ -62,12 +59,291 @@ Partial Class MainForm
         Me.Guna2Panel1.SuspendLayout()
         CType(Me.Guna2PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Guna2ShadowPanel1.SuspendLayout()
+        CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.ImageSlide, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Guna2Elipse1
         '
         Me.Guna2Elipse1.BorderRadius = 60
         Me.Guna2Elipse1.TargetControl = Me
+        '
+        'Guna2ShadowPanel2
+        '
+        Me.Guna2ShadowPanel2.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2ShadowPanel2.Controls.Add(Me.OptionPanel)
+        Me.Guna2ShadowPanel2.FillColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(133, Byte), Integer))
+        Me.Guna2ShadowPanel2.Location = New System.Drawing.Point(22, 20)
+        Me.Guna2ShadowPanel2.Name = "Guna2ShadowPanel2"
+        Me.Guna2ShadowPanel2.Radius = 13
+        Me.Guna2ShadowPanel2.ShadowColor = System.Drawing.Color.Empty
+        Me.Guna2ShadowPanel2.ShadowDepth = 0
+        Me.Guna2ShadowPanel2.ShadowShift = 0
+        Me.Guna2ShadowPanel2.Size = New System.Drawing.Size(466, 892)
+        Me.Guna2ShadowPanel2.TabIndex = 5
+        '
+        'OptionPanel
+        '
+        Me.OptionPanel.Location = New System.Drawing.Point(142, 20)
+        Me.OptionPanel.Name = "OptionPanel"
+        Me.OptionPanel.Size = New System.Drawing.Size(306, 808)
+        Me.OptionPanel.TabIndex = 0
+        '
+        'Guna2Button1
+        '
+        Me.Guna2Button1.BorderRadius = 12
+        Me.Guna2Button1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2Button1.FillColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(50, Byte), Integer))
+        Me.Guna2Button1.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2Button1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(184, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Guna2Button1.HoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(82, Byte), Integer), CType(CType(130, Byte), Integer), CType(CType(111, Byte), Integer))
+        Me.Guna2Button1.Location = New System.Drawing.Point(1661, 862)
+        Me.Guna2Button1.Name = "Guna2Button1"
+        Me.Guna2Button1.Size = New System.Drawing.Size(180, 50)
+        Me.Guna2Button1.TabIndex = 4
+        Me.Guna2Button1.Text = "Proceed"
+        '
+        'Guna2Button6
+        '
+        Me.Guna2Button6.BorderColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(50, Byte), Integer))
+        Me.Guna2Button6.BorderRadius = 12
+        Me.Guna2Button6.BorderThickness = 2
+        Me.Guna2Button6.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2Button6.FillColor = System.Drawing.Color.Empty
+        Me.Guna2Button6.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2Button6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(50, Byte), Integer))
+        Me.Guna2Button6.HoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(82, Byte), Integer), CType(CType(130, Byte), Integer), CType(CType(111, Byte), Integer))
+        Me.Guna2Button6.Location = New System.Drawing.Point(1458, 862)
+        Me.Guna2Button6.Name = "Guna2Button6"
+        Me.Guna2Button6.Size = New System.Drawing.Size(180, 50)
+        Me.Guna2Button6.TabIndex = 7
+        Me.Guna2Button6.Text = "Cancel"
+        '
+        'Guna2ShadowPanel3
+        '
+        Me.Guna2ShadowPanel3.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2ShadowPanel3.BackgroundImage = CType(resources.GetObject("Guna2ShadowPanel3.BackgroundImage"), System.Drawing.Image)
+        Me.Guna2ShadowPanel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Guna2ShadowPanel3.Controls.Add(Me.Guna2Button7)
+        Me.Guna2ShadowPanel3.Controls.Add(Me.ContentPanel)
+        Me.Guna2ShadowPanel3.Controls.Add(Me.Guna2ShadowPanel5)
+        Me.Guna2ShadowPanel3.Controls.Add(Me.Guna2ShadowPanel4)
+        Me.Guna2ShadowPanel3.Controls.Add(Me.Label1)
+        Me.Guna2ShadowPanel3.Controls.Add(Me.Guna2PictureBox2)
+        Me.Guna2ShadowPanel3.Controls.Add(Me.Guna2PictureBox3)
+        Me.Guna2ShadowPanel3.FillColor = System.Drawing.Color.Transparent
+        Me.Guna2ShadowPanel3.Location = New System.Drawing.Point(488, 0)
+        Me.Guna2ShadowPanel3.Name = "Guna2ShadowPanel3"
+        Me.Guna2ShadowPanel3.Radius = 13
+        Me.Guna2ShadowPanel3.ShadowColor = System.Drawing.Color.Empty
+        Me.Guna2ShadowPanel3.ShadowDepth = 0
+        Me.Guna2ShadowPanel3.ShadowShift = 0
+        Me.Guna2ShadowPanel3.Size = New System.Drawing.Size(1396, 885)
+        Me.Guna2ShadowPanel3.TabIndex = 6
+        '
+        'Guna2Button7
+        '
+        Me.Guna2Button7.BorderRadius = 12
+        Me.Guna2Button7.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Guna2Button7.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button7.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2Button7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2Button7.FillColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(50, Byte), Integer))
+        Me.Guna2Button7.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Guna2Button7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(184, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Guna2Button7.HoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(82, Byte), Integer), CType(CType(130, Byte), Integer), CType(CType(111, Byte), Integer))
+        Me.Guna2Button7.Location = New System.Drawing.Point(1164, 72)
+        Me.Guna2Button7.Name = "Guna2Button7"
+        Me.Guna2Button7.Size = New System.Drawing.Size(131, 50)
+        Me.Guna2Button7.TabIndex = 8
+        Me.Guna2Button7.Text = "Back"
+        '
+        'ContentPanel
+        '
+        Me.ContentPanel.BackColor = System.Drawing.Color.Transparent
+        Me.ContentPanel.FillColor = System.Drawing.Color.Transparent
+        Me.ContentPanel.Location = New System.Drawing.Point(308, 170)
+        Me.ContentPanel.Name = "ContentPanel"
+        Me.ContentPanel.ShadowColor = System.Drawing.Color.Black
+        Me.ContentPanel.ShadowShift = 0
+        Me.ContentPanel.Size = New System.Drawing.Size(987, 500)
+        Me.ContentPanel.TabIndex = 8
+        '
+        'Guna2ShadowPanel5
+        '
+        Me.Guna2ShadowPanel5.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2ShadowPanel5.Controls.Add(Me.SideOptions)
+        Me.Guna2ShadowPanel5.FillColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(133, Byte), Integer))
+        Me.Guna2ShadowPanel5.Location = New System.Drawing.Point(77, 170)
+        Me.Guna2ShadowPanel5.Name = "Guna2ShadowPanel5"
+        Me.Guna2ShadowPanel5.Radius = 11
+        Me.Guna2ShadowPanel5.ShadowColor = System.Drawing.Color.Black
+        Me.Guna2ShadowPanel5.ShadowDepth = 0
+        Me.Guna2ShadowPanel5.ShadowShift = 0
+        Me.Guna2ShadowPanel5.Size = New System.Drawing.Size(213, 500)
+        Me.Guna2ShadowPanel5.TabIndex = 7
+        '
+        'SideOptions
+        '
+        Me.SideOptions.Location = New System.Drawing.Point(9, 8)
+        Me.SideOptions.Name = "SideOptions"
+        Me.SideOptions.Size = New System.Drawing.Size(195, 484)
+        Me.SideOptions.TabIndex = 0
+        '
+        'Guna2ShadowPanel4
+        '
+        Me.Guna2ShadowPanel4.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2ShadowPanel4.Controls.Add(Me.Label6)
+        Me.Guna2ShadowPanel4.Controls.Add(Me.Label5)
+        Me.Guna2ShadowPanel4.Controls.Add(Me.Label4)
+        Me.Guna2ShadowPanel4.Controls.Add(Me.Label3)
+        Me.Guna2ShadowPanel4.Controls.Add(Me.Guna2Button5)
+        Me.Guna2ShadowPanel4.Controls.Add(Me.Guna2Panel1)
+        Me.Guna2ShadowPanel4.FillColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(133, Byte), Integer))
+        Me.Guna2ShadowPanel4.Location = New System.Drawing.Point(20, 686)
+        Me.Guna2ShadowPanel4.Name = "Guna2ShadowPanel4"
+        Me.Guna2ShadowPanel4.Radius = 11
+        Me.Guna2ShadowPanel4.ShadowColor = System.Drawing.Color.Black
+        Me.Guna2ShadowPanel4.ShadowDepth = 0
+        Me.Guna2ShadowPanel4.ShadowShift = 0
+        Me.Guna2ShadowPanel4.Size = New System.Drawing.Size(1333, 156)
+        Me.Guna2ShadowPanel4.TabIndex = 5
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.BackColor = System.Drawing.Color.Transparent
+        Me.Label6.Font = New System.Drawing.Font("Segoe UI", 10.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(242, Byte), Integer), CType(CType(242, Byte), Integer), CType(CType(242, Byte), Integer))
+        Me.Label6.Location = New System.Drawing.Point(424, 91)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(22, 25)
+        Me.Label6.TabIndex = 13
+        Me.Label6.Text = "0"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.BackColor = System.Drawing.Color.Transparent
+        Me.Label5.Font = New System.Drawing.Font("Segoe UI", 10.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(242, Byte), Integer), CType(CType(242, Byte), Integer), CType(CType(242, Byte), Integer))
+        Me.Label5.Location = New System.Drawing.Point(117, 91)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(98, 25)
+        Me.Label5.TabIndex = 12
+        Me.Label5.Text = "00.00 PHP"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.BackColor = System.Drawing.Color.Transparent
+        Me.Label4.Font = New System.Drawing.Font("Segoe UI", 10.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(242, Byte), Integer), CType(CType(242, Byte), Integer), CType(CType(242, Byte), Integer))
+        Me.Label4.Location = New System.Drawing.Point(287, 91)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(130, 25)
+        Me.Label4.TabIndex = 11
+        Me.Label4.Text = "|           Items: "
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
+        Me.Label3.Font = New System.Drawing.Font("Segoe UI", 10.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(242, Byte), Integer), CType(CType(242, Byte), Integer), CType(CType(242, Byte), Integer))
+        Me.Label3.Location = New System.Drawing.Point(55, 91)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(59, 25)
+        Me.Label3.TabIndex = 10
+        Me.Label3.Text = "Total:"
+        '
+        'Guna2Button5
+        '
+        Me.Guna2Button5.BorderRadius = 12
+        Me.Guna2Button5.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.Guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.Guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.Guna2Button5.FillColor = System.Drawing.Color.Empty
+        Me.Guna2Button5.Font = New System.Drawing.Font("Segoe UI", 10.5!, System.Drawing.FontStyle.Bold)
+        Me.Guna2Button5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(242, Byte), Integer), CType(CType(242, Byte), Integer), CType(CType(242, Byte), Integer))
+        Me.Guna2Button5.HoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(82, Byte), Integer), CType(CType(130, Byte), Integer), CType(CType(111, Byte), Integer))
+        Me.Guna2Button5.Location = New System.Drawing.Point(1095, 79)
+        Me.Guna2Button5.Name = "Guna2Button5"
+        Me.Guna2Button5.Size = New System.Drawing.Size(180, 50)
+        Me.Guna2Button5.TabIndex = 7
+        Me.Guna2Button5.Text = "View my order"
+        '
+        'Guna2Panel1
+        '
+        Me.Guna2Panel1.BackgroundImage = CType(resources.GetObject("Guna2Panel1.BackgroundImage"), System.Drawing.Image)
+        Me.Guna2Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Guna2Panel1.Controls.Add(Me.Label2)
+        Me.Guna2Panel1.Location = New System.Drawing.Point(1, -1)
+        Me.Guna2Panel1.Name = "Guna2Panel1"
+        Me.Guna2Panel1.Size = New System.Drawing.Size(1332, 56)
+        Me.Guna2Panel1.TabIndex = 6
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(50, Byte), Integer))
+        Me.Label2.Font = New System.Drawing.Font("Segoe UI", 10.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(184, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label2.Location = New System.Drawing.Point(53, 17)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(155, 25)
+        Me.Label2.TabIndex = 9
+        Me.Label2.Text = "My order - Eat in"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(50, Byte), Integer))
+        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(184, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label1.Location = New System.Drawing.Point(239, 60)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(102, 38)
+        Me.Label1.TabIndex = 3
+        Me.Label1.Text = "Drinks"
+        '
+        'Guna2PictureBox2
+        '
+        Me.Guna2PictureBox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(50, Byte), Integer))
+        Me.Guna2PictureBox2.BackgroundImage = CType(resources.GetObject("Guna2PictureBox2.BackgroundImage"), System.Drawing.Image)
+        Me.Guna2PictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Guna2PictureBox2.FillColor = System.Drawing.Color.Transparent
+        Me.Guna2PictureBox2.ImageRotate = 0!
+        Me.Guna2PictureBox2.Location = New System.Drawing.Point(124, 33)
+        Me.Guna2PictureBox2.Name = "Guna2PictureBox2"
+        Me.Guna2PictureBox2.Size = New System.Drawing.Size(90, 82)
+        Me.Guna2PictureBox2.TabIndex = 2
+        Me.Guna2PictureBox2.TabStop = False
+        '
+        'Guna2PictureBox3
+        '
+        Me.Guna2PictureBox3.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2PictureBox3.BackgroundImage = CType(resources.GetObject("Guna2PictureBox3.BackgroundImage"), System.Drawing.Image)
+        Me.Guna2PictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Guna2PictureBox3.FillColor = System.Drawing.Color.Empty
+        Me.Guna2PictureBox3.ImageRotate = 0!
+        Me.Guna2PictureBox3.Location = New System.Drawing.Point(52, -16)
+        Me.Guna2PictureBox3.Name = "Guna2PictureBox3"
+        Me.Guna2PictureBox3.Size = New System.Drawing.Size(384, 183)
+        Me.Guna2PictureBox3.TabIndex = 1
+        Me.Guna2PictureBox3.TabStop = False
         '
         'Guna2ShadowPanel1
         '
@@ -228,282 +504,6 @@ Partial Class MainForm
         Me.ImageSlide.TabIndex = 1
         Me.ImageSlide.TabStop = False
         '
-        'Guna2ShadowPanel2
-        '
-        Me.Guna2ShadowPanel2.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2ShadowPanel2.Controls.Add(Me.OptionPanel)
-        Me.Guna2ShadowPanel2.FillColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(133, Byte), Integer))
-        Me.Guna2ShadowPanel2.Location = New System.Drawing.Point(22, 20)
-        Me.Guna2ShadowPanel2.Name = "Guna2ShadowPanel2"
-        Me.Guna2ShadowPanel2.Radius = 13
-        Me.Guna2ShadowPanel2.ShadowColor = System.Drawing.Color.Empty
-        Me.Guna2ShadowPanel2.ShadowDepth = 0
-        Me.Guna2ShadowPanel2.ShadowShift = 0
-        Me.Guna2ShadowPanel2.Size = New System.Drawing.Size(466, 892)
-        Me.Guna2ShadowPanel2.TabIndex = 5
-        '
-        'OptionPanel
-        '
-        Me.OptionPanel.Location = New System.Drawing.Point(142, 20)
-        Me.OptionPanel.Name = "OptionPanel"
-        Me.OptionPanel.Size = New System.Drawing.Size(306, 808)
-        Me.OptionPanel.TabIndex = 0
-        '
-        'Guna2ShadowPanel3
-        '
-        Me.Guna2ShadowPanel3.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2ShadowPanel3.BackgroundImage = CType(resources.GetObject("Guna2ShadowPanel3.BackgroundImage"), System.Drawing.Image)
-        Me.Guna2ShadowPanel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Guna2ShadowPanel3.Controls.Add(Me.Guna2Button7)
-        Me.Guna2ShadowPanel3.Controls.Add(Me.ContentPanel)
-        Me.Guna2ShadowPanel3.Controls.Add(Me.Guna2ShadowPanel5)
-        Me.Guna2ShadowPanel3.Controls.Add(Me.Guna2ShadowPanel4)
-        Me.Guna2ShadowPanel3.Controls.Add(Me.Label1)
-        Me.Guna2ShadowPanel3.Controls.Add(Me.Guna2PictureBox2)
-        Me.Guna2ShadowPanel3.Controls.Add(Me.Guna2PictureBox3)
-        Me.Guna2ShadowPanel3.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2ShadowPanel3.Location = New System.Drawing.Point(488, 0)
-        Me.Guna2ShadowPanel3.Name = "Guna2ShadowPanel3"
-        Me.Guna2ShadowPanel3.Radius = 13
-        Me.Guna2ShadowPanel3.ShadowColor = System.Drawing.Color.Empty
-        Me.Guna2ShadowPanel3.ShadowDepth = 0
-        Me.Guna2ShadowPanel3.ShadowShift = 0
-        Me.Guna2ShadowPanel3.Size = New System.Drawing.Size(1396, 885)
-        Me.Guna2ShadowPanel3.TabIndex = 6
-        '
-        'ContentPanel
-        '
-        Me.ContentPanel.BackColor = System.Drawing.Color.Transparent
-        Me.ContentPanel.FillColor = System.Drawing.Color.Transparent
-        Me.ContentPanel.Location = New System.Drawing.Point(308, 170)
-        Me.ContentPanel.Name = "ContentPanel"
-        Me.ContentPanel.ShadowColor = System.Drawing.Color.Black
-        Me.ContentPanel.ShadowShift = 0
-        Me.ContentPanel.Size = New System.Drawing.Size(987, 500)
-        Me.ContentPanel.TabIndex = 8
-        '
-        'Guna2ShadowPanel5
-        '
-        Me.Guna2ShadowPanel5.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2ShadowPanel5.Controls.Add(Me.SideOptions)
-        Me.Guna2ShadowPanel5.FillColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(133, Byte), Integer))
-        Me.Guna2ShadowPanel5.Location = New System.Drawing.Point(77, 170)
-        Me.Guna2ShadowPanel5.Name = "Guna2ShadowPanel5"
-        Me.Guna2ShadowPanel5.Radius = 11
-        Me.Guna2ShadowPanel5.ShadowColor = System.Drawing.Color.Black
-        Me.Guna2ShadowPanel5.ShadowDepth = 0
-        Me.Guna2ShadowPanel5.ShadowShift = 0
-        Me.Guna2ShadowPanel5.Size = New System.Drawing.Size(213, 500)
-        Me.Guna2ShadowPanel5.TabIndex = 7
-        '
-        'SideOptions
-        '
-        Me.SideOptions.Location = New System.Drawing.Point(9, 8)
-        Me.SideOptions.Name = "SideOptions"
-        Me.SideOptions.Size = New System.Drawing.Size(195, 484)
-        Me.SideOptions.TabIndex = 0
-        '
-        'Guna2ShadowPanel4
-        '
-        Me.Guna2ShadowPanel4.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2ShadowPanel4.Controls.Add(Me.Label6)
-        Me.Guna2ShadowPanel4.Controls.Add(Me.Label5)
-        Me.Guna2ShadowPanel4.Controls.Add(Me.Label4)
-        Me.Guna2ShadowPanel4.Controls.Add(Me.Label3)
-        Me.Guna2ShadowPanel4.Controls.Add(Me.Guna2Button5)
-        Me.Guna2ShadowPanel4.Controls.Add(Me.Guna2Panel1)
-        Me.Guna2ShadowPanel4.FillColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(133, Byte), Integer))
-        Me.Guna2ShadowPanel4.Location = New System.Drawing.Point(20, 686)
-        Me.Guna2ShadowPanel4.Name = "Guna2ShadowPanel4"
-        Me.Guna2ShadowPanel4.Radius = 11
-        Me.Guna2ShadowPanel4.ShadowColor = System.Drawing.Color.Black
-        Me.Guna2ShadowPanel4.ShadowDepth = 0
-        Me.Guna2ShadowPanel4.ShadowShift = 0
-        Me.Guna2ShadowPanel4.Size = New System.Drawing.Size(1333, 156)
-        Me.Guna2ShadowPanel4.TabIndex = 5
-        '
-        'Guna2Button5
-        '
-        Me.Guna2Button5.BorderRadius = 12
-        Me.Guna2Button5.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button5.FillColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(50, Byte), Integer))
-        Me.Guna2Button5.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.Guna2Button5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(184, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Guna2Button5.HoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(82, Byte), Integer), CType(CType(130, Byte), Integer), CType(CType(111, Byte), Integer))
-        Me.Guna2Button5.Location = New System.Drawing.Point(1095, 79)
-        Me.Guna2Button5.Name = "Guna2Button5"
-        Me.Guna2Button5.Size = New System.Drawing.Size(180, 50)
-        Me.Guna2Button5.TabIndex = 7
-        Me.Guna2Button5.Text = "View my order"
-        '
-        'Guna2Panel1
-        '
-        Me.Guna2Panel1.BackgroundImage = CType(resources.GetObject("Guna2Panel1.BackgroundImage"), System.Drawing.Image)
-        Me.Guna2Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Guna2Panel1.Controls.Add(Me.Label2)
-        Me.Guna2Panel1.Location = New System.Drawing.Point(1, -1)
-        Me.Guna2Panel1.Name = "Guna2Panel1"
-        Me.Guna2Panel1.Size = New System.Drawing.Size(1332, 56)
-        Me.Guna2Panel1.TabIndex = 6
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(50, Byte), Integer))
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(184, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(239, 60)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(100, 32)
-        Me.Label1.TabIndex = 3
-        Me.Label1.Text = "Drinks"
-        '
-        'Guna2PictureBox2
-        '
-        Me.Guna2PictureBox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(50, Byte), Integer))
-        Me.Guna2PictureBox2.BackgroundImage = CType(resources.GetObject("Guna2PictureBox2.BackgroundImage"), System.Drawing.Image)
-        Me.Guna2PictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Guna2PictureBox2.FillColor = System.Drawing.Color.Transparent
-        Me.Guna2PictureBox2.ImageRotate = 0!
-        Me.Guna2PictureBox2.Location = New System.Drawing.Point(124, 33)
-        Me.Guna2PictureBox2.Name = "Guna2PictureBox2"
-        Me.Guna2PictureBox2.Size = New System.Drawing.Size(90, 82)
-        Me.Guna2PictureBox2.TabIndex = 2
-        Me.Guna2PictureBox2.TabStop = False
-        '
-        'Guna2PictureBox3
-        '
-        Me.Guna2PictureBox3.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2PictureBox3.BackgroundImage = CType(resources.GetObject("Guna2PictureBox3.BackgroundImage"), System.Drawing.Image)
-        Me.Guna2PictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Guna2PictureBox3.FillColor = System.Drawing.Color.Empty
-        Me.Guna2PictureBox3.ImageRotate = 0!
-        Me.Guna2PictureBox3.Location = New System.Drawing.Point(52, -16)
-        Me.Guna2PictureBox3.Name = "Guna2PictureBox3"
-        Me.Guna2PictureBox3.Size = New System.Drawing.Size(384, 183)
-        Me.Guna2PictureBox3.TabIndex = 1
-        Me.Guna2PictureBox3.TabStop = False
-        '
-        'Guna2Button1
-        '
-        Me.Guna2Button1.BorderRadius = 12
-        Me.Guna2Button1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button1.FillColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(50, Byte), Integer))
-        Me.Guna2Button1.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(184, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Guna2Button1.HoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(82, Byte), Integer), CType(CType(130, Byte), Integer), CType(CType(111, Byte), Integer))
-        Me.Guna2Button1.Location = New System.Drawing.Point(1661, 862)
-        Me.Guna2Button1.Name = "Guna2Button1"
-        Me.Guna2Button1.Size = New System.Drawing.Size(180, 50)
-        Me.Guna2Button1.TabIndex = 4
-        Me.Guna2Button1.Text = "Proceed"
-        '
-        'Guna2Button6
-        '
-        Me.Guna2Button6.BorderColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(50, Byte), Integer))
-        Me.Guna2Button6.BorderRadius = 12
-        Me.Guna2Button6.BorderThickness = 2
-        Me.Guna2Button6.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button6.FillColor = System.Drawing.Color.Empty
-        Me.Guna2Button6.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(50, Byte), Integer))
-        Me.Guna2Button6.HoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(82, Byte), Integer), CType(CType(130, Byte), Integer), CType(CType(111, Byte), Integer))
-        Me.Guna2Button6.Location = New System.Drawing.Point(1458, 862)
-        Me.Guna2Button6.Name = "Guna2Button6"
-        Me.Guna2Button6.Size = New System.Drawing.Size(180, 50)
-        Me.Guna2Button6.TabIndex = 7
-        Me.Guna2Button6.Text = "Cancel"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.BackColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(50, Byte), Integer))
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(184, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(53, 17)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(159, 22)
-        Me.Label2.TabIndex = 9
-        Me.Label2.Text = "My order - Eat in"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(242, Byte), Integer), CType(CType(242, Byte), Integer), CType(CType(242, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(55, 91)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(62, 22)
-        Me.Label3.TabIndex = 10
-        Me.Label3.Text = "Total:"
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(242, Byte), Integer), CType(CType(242, Byte), Integer), CType(CType(242, Byte), Integer))
-        Me.Label4.Location = New System.Drawing.Point(287, 91)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(141, 22)
-        Me.Label4.TabIndex = 11
-        Me.Label4.Text = "|           Items: "
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.BackColor = System.Drawing.Color.Transparent
-        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(242, Byte), Integer), CType(CType(242, Byte), Integer), CType(CType(242, Byte), Integer))
-        Me.Label5.Location = New System.Drawing.Point(117, 91)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(106, 22)
-        Me.Label5.TabIndex = 12
-        Me.Label5.Text = "00.00 PHP"
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.BackColor = System.Drawing.Color.Transparent
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.5!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(242, Byte), Integer), CType(CType(242, Byte), Integer), CType(CType(242, Byte), Integer))
-        Me.Label6.Location = New System.Drawing.Point(424, 91)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(21, 22)
-        Me.Label6.TabIndex = 13
-        Me.Label6.Text = "0"
-        '
-        'Guna2Button7
-        '
-        Me.Guna2Button7.BorderRadius = 12
-        Me.Guna2Button7.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Guna2Button7.DisabledState.BorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
-        Me.Guna2Button7.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
-        Me.Guna2Button7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
-        Me.Guna2Button7.FillColor = System.Drawing.Color.FromArgb(CType(CType(30, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(50, Byte), Integer))
-        Me.Guna2Button7.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Guna2Button7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(184, Byte), Integer), CType(CType(197, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Guna2Button7.HoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(82, Byte), Integer), CType(CType(130, Byte), Integer), CType(CType(111, Byte), Integer))
-        Me.Guna2Button7.Location = New System.Drawing.Point(1164, 72)
-        Me.Guna2Button7.Name = "Guna2Button7"
-        Me.Guna2Button7.Size = New System.Drawing.Size(131, 50)
-        Me.Guna2Button7.TabIndex = 8
-        Me.Guna2Button7.Text = "Back"
-        '
         'MainForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -519,9 +519,6 @@ Partial Class MainForm
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "MainForm"
         Me.Text = "Form1"
-        Me.Guna2ShadowPanel1.ResumeLayout(False)
-        CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.ImageSlide, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Guna2ShadowPanel2.ResumeLayout(False)
         Me.Guna2ShadowPanel3.ResumeLayout(False)
         Me.Guna2ShadowPanel3.PerformLayout()
@@ -532,6 +529,9 @@ Partial Class MainForm
         Me.Guna2Panel1.PerformLayout()
         CType(Me.Guna2PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Guna2PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Guna2ShadowPanel1.ResumeLayout(False)
+        CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.ImageSlide, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub

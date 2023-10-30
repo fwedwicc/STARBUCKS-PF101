@@ -167,6 +167,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="OleatoGFCB.Designer.vb">
+      <DependentUpon>OleatoGFCB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OleatoGFCB.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="OleatoOptions.Designer.vb">
       <DependentUpon>OleatoOptions.vb</DependentUpon>
     </Compile>
@@ -228,6 +234,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OleatoGFCB.resx">
+      <DependentUpon>OleatoGFCB.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OleatoOptions.resx">
       <DependentUpon>OleatoOptions.vb</DependentUpon>
