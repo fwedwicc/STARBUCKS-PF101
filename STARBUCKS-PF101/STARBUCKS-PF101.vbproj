@@ -79,6 +79,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AmericanosPanel.Designer.vb">
+      <DependentUpon>AmericanosPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AmericanosPanel.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ColdCoffeesOptions.Designer.vb">
       <DependentUpon>ColdCoffeesOptions.vb</DependentUpon>
     </Compile>
@@ -167,6 +173,12 @@
     <Compile Include="OleatoOptions.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="OleatoPanel.Designer.vb">
+      <DependentUpon>OleatoPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OleatoPanel.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="OutmealandYogurtOptions.Designer.vb">
       <DependentUpon>OutmealandYogurtOptions.vb</DependentUpon>
     </Compile>
@@ -175,6 +187,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AmericanosPanel.resx">
+      <DependentUpon>AmericanosPanel.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ColdCoffeesOptions.resx">
       <DependentUpon>ColdCoffeesOptions.vb</DependentUpon>
     </EmbeddedResource>
@@ -217,6 +232,9 @@
     <EmbeddedResource Include="OleatoOptions.resx">
       <DependentUpon>OleatoOptions.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="OleatoPanel.resx">
+      <DependentUpon>OleatoPanel.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="OutmealandYogurtOptions.resx">
       <DependentUpon>OutmealandYogurtOptions.vb</DependentUpon>
     </EmbeddedResource>
@@ -233,6 +251,70 @@
     </None>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dragon-drink.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iced-chai-tea-latte.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iced-matcha-tea-latte.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oleato-caffe-latte-with-oatmilk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oleato-golden-foam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oleato-iced-shaken-expresso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paradise-drinks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\athome-clicked.png" />
+    <Content Include="Resources\athome-default.png" />
+    <Content Include="Resources\athome-logo.png" />
+    <Content Include="Resources\check-logo-2.png" />
+    <Content Include="Resources\check-logo-3.png" />
+    <Content Include="Resources\check-logo.png" />
+    <Content Include="Resources\cold-coffees-option.png" />
+    <Content Include="Resources\cold-drinks-option.png" />
+    <Content Include="Resources\drinks-logo-clicked.png" />
+    <Content Include="Resources\drinks-logo-default.png" />
+    <Content Include="Resources\drinks-logo.png" />
+    <Content Include="Resources\food-logo.png" />
+    <Content Include="Resources\foods-clicked.png" />
+    <Content Include="Resources\foods-default.png" />
+    <Content Include="Resources\frappuccino-option.png" />
+    <Content Include="Resources\green-panel.png" />
+    <Content Include="Resources\head-panel.png" />
+    <Content Include="Resources\hot-breakfast-option.png" />
+    <Content Include="Resources\hot-coffees-option.png" />
+    <Content Include="Resources\hot-drinks-option.png" />
+    <Content Include="Resources\how-teas-option.png" />
+    <Content Include="Resources\iced-teas-option.png" />
+    <Content Include="Resources\image-slider-2.png" />
+    <Content Include="Resources\main-panel-2.png" />
+    <Content Include="Resources\main-panel.png" />
+    <Content Include="Resources\merch-clicked.png" />
+    <Content Include="Resources\merch-default.png" />
+    <Content Include="Resources\merch-logo.png" />
+    <Content Include="Resources\nav-des.png" />
+    <Content Include="Resources\oatmeal-yogurt-option.png" />
+    <Content Include="Resources\oleato-option.png" />
+    <Content Include="Resources\order-type-panel.png" />
+    <Content Include="Resources\panel-side.png" />
+    <Content Include="Resources\Rectangle 91.png" />
+    <Content Include="Resources\side-panel.png" />
+    <Content Include="Resources\starbucks-logo.png" />
+    <Content Include="Resources\starbucks-logo2.png" />
+    <Content Include="Resources\top-label-logo.png" />
+    <Content Include="Resources\top-label.png" />
+    <Content Include="Resources\top-logo.png" />
+    <Content Include="Resources\top-panel2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

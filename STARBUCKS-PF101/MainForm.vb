@@ -56,6 +56,14 @@ Public Class MainForm
         oleatosForm.BringToFront()
         oleatosForm.Show()
 
+        Dim oleato As New OleatoPanel()
+        oleato.TopLevel = False
+        oleato.FormBorderStyle = FormBorderStyle.None
+        oleato.Dock = DockStyle.Fill
+        Me.ContentPanel.Controls.Add(oleato)
+        oleato.BringToFront()
+        oleato.Show()
+
         Label1.Text = "Drinks"
     End Sub
 
@@ -105,4 +113,14 @@ Public Class MainForm
     Friend Shared Function Instance() As Object
         Throw New NotImplementedException()
     End Function
+
+    Private Sub ContentPanel_Paint(sender As Object, e As PaintEventArgs) Handles ContentPanel.Paint
+        Dim oleato As New OleatoPanel()
+        oleato.TopLevel = False
+        oleato.FormBorderStyle = FormBorderStyle.None
+        oleato.Dock = DockStyle.Fill
+        Me.ContentPanel.Controls.Add(oleato)
+        oleato.BringToFront()
+        oleato.Show()
+    End Sub
 End Class

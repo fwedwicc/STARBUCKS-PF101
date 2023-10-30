@@ -8,4 +8,14 @@ Public Class HotCoffeesOptions
     Private Sub HotCoffeesOptions_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
+
+    Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click
+        Dim americanos As New AmericanosPanel()
+        americanos.TopLevel = False
+        americanos.FormBorderStyle = FormBorderStyle.None
+        americanos.Dock = DockStyle.Fill
+        MainForm.ContentPanel.Controls.Add(americanos)
+        americanos.BringToFront()
+        americanos.Show()
+    End Sub
 End Class
