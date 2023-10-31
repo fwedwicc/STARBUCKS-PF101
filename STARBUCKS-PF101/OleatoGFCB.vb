@@ -29,5 +29,10 @@
         ' Add the selected item with its price to the cart (if needed)
         'cartComboBox.Items.Add(selectedAddOn & " - $" & addOnPrices(selectedAddOn))
 
+
+
+
+
+
     End Sub
 End Class

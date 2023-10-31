@@ -97,7 +97,7 @@ Public Class MainForm
     End Sub
 
     Private Sub Guna2Button5_Click(sender As Object, e As EventArgs) Handles Guna2Button5.Click
-
+        ViewOrder.Show()
     End Sub
 
     Private Sub SideOptions_Paint(sender As Object, e As PaintEventArgs) Handles SideOptions.Paint
